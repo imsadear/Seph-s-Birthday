@@ -1,10 +1,9 @@
 # Wikapedia
 
-A community dictionary for Philippine languages — built at a hackathon, hopefully something more eventually.
-
+A community dictionary for Philippine languages
 The Philippines has 130+ living languages. Almost none of them exist in any usable form for AI or speech tech. Tagalog and English get everything. Waray, Tausug, Kapampangan, Ilocano, and dozens of others get nothing. We wanted to do something about that.
 
-Wikapedia lets Filipino speakers contribute words, phrases, translations, and voice recordings in their own language. AI does a first-pass quality check, then community reviewers (ideally native speakers) verify entries. Anything that passes becomes open, structured data — the kind developers can actually use to build speech recognition, TTS, translation tools, whatever.
+Wikapedia lets Filipino speakers contribute words, phrases, translations, and voice recordings in their own language. AI does a first-pass quality check, then community reviewers (ideally native speakers) verify entries. Anything that passes becomes open, structured data the kind developers can actually use to build speech recognition, TTS, translation tools, whatever.
 
 ---
 
