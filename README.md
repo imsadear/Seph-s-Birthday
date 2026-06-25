@@ -30,8 +30,6 @@ Double-click `index.html` on Windows. That's it.
 - API preview for developers
 - Fully responsive
 
-The Waray pack is the main demo dataset: ~1,800 words, ~2,400 phrases, 891 voice samples, 2,700+ verified entries contributed by 132 native reviewers. All downloadable straight from the browser.
-
 ---
 
 ## Languages in the prototype
