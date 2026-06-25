@@ -60,9 +60,8 @@ wikapedia/
 ---
 
 ## Members:
-Arias, Sam Denielle
-Coo, Helijah Sephreen
-Esguerra, John Joshua
+Arias, Sam Denielle  
+Coo, Helijah Sephreen  
+Esguerra, John Joshua  
 Escara, Angel John
-
 ---
