@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wikapedia — A Wikipedia for Philippine Voices</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===================== HEADER / NAV ===================== -->
+  <header id="site-header" class="site-header">
+    <nav class="nav-container" aria-label="Main navigation">
+      <a href="#home" class="nav-logo" id="nav-logo">Wikapedia</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#explore" class="nav-link">Explore</a></li>
+        <li><a href="#waray-pack" class="nav-link">Waray Pack</a></li>
+        <li><a href="#contribute" class="nav-link">Contribute</a></li>
+        <li><a href="#developers" class="nav-link">Developers</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+      </ul>
+      <a href="#contribute" class="btn btn-primary nav-cta">Contribute</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ===================== HERO SECTION ===================== -->
+    <section id="home" class="section hero-section">
+      <div class="container hero-container">
+
+        <div class="hero-content">
+          <p class="hero-eyebrow">Open Language Platform</p>
+          <h1 class="hero-headline">A Wikipedia for Philippine voices.</h1>
+          <p class="hero-subheadline">
+            Discover, contribute, verify, and open-source language data for the 130+ languages of the Philippines.
+          </p>
+          <p class="hero-description">
+            Wikapedia is a community-powered, AI-assisted platform where Filipino speakers document their own languages —
+            creating verified, reusable open-source resources for speech recognition, text-to-speech, translation,
+            education, and accessibility tools.
+          </p>
+          <div class="hero-actions">
+            <a href="#contribute" class="btn btn-primary btn-lg">Start Contributing</a>
+            <a href="#explore" class="btn btn-secondary btn-lg">Explore Languages</a>
+          </div>
+          <p class="hero-trust-label">
+            <span class="trust-badge">Open-source</span>
+            <span class="trust-separator">•</span>
+            <span class="trust-badge">Community-built</span>
+            <span class="trust-separator">•</span>
+            <span class="trust-badge">AI-assisted verification</span>
+          </p>
+        </div>
+
+        <div class="hero-mockup" aria-label="Featured language dashboard preview">
+          <div class="mockup-card">
+            <div class="mockup-card-header">
+              <span class="mockup-label">Featured Language</span>
+              <span class="mockup-badge verified-badge">Community + AI Verified</span>
+            </div>
+            <h2 class="mockup-language-name">Waray</h2>
+            <p class="mockup-language-region">Eastern Visayas, Philippines</p>
+            <div class="mockup-stats">
+              <div class="mockup-stat">
+                <span class="mockup-stat-value">4,221</span>
+                <span class="mockup-stat-label">Entries</span>
+              </div>
+              <div class="mockup-stat">
+                <span class="mockup-stat-value">891</span>
+                <span class="mockup-stat-label">Voice Samples</span>
+              </div>
+              <div class="mockup-stat">
+                <span class="mockup-stat-value">64%</span>
+                <span class="mockup-stat-label">Verified</span>
+              </div>
+            </div>
+            <div class="mockup-progress-bar" aria-label="64% verified">
+              <div class="mockup-progress-fill" style="width: 64%;"></div>
+            </div>
+            <div class="mockup-waveform" aria-label="Audio waveform visualization">
+              <span class="wave-bar" style="height: 20px;"></span>
+              <span class="wave-bar" style="height: 35px;"></span>
+              <span class="wave-bar" style="height: 28px;"></span>
+              <span class="wave-bar" style="height: 45px;"></span>
+              <span class="wave-bar" style="height: 32px;"></span>
+              <span class="wave-bar" style="height: 50px;"></span>
+              <span class="wave-bar" style="height: 38px;"></span>
+              <span class="wave-bar" style="height: 55px;"></span>
+              <span class="wave-bar" style="height: 42px;"></span>
+              <span class="wave-bar" style="height: 60px;"></span>
+              <span class="wave-bar" style="height: 48px;"></span>
+              <span class="wave-bar" style="height: 40px;"></span>
+              <span class="wave-bar" style="height: 30px;"></span>
+              <span class="wave-bar" style="height: 52px;"></span>
+              <span class="wave-bar" style="height: 36px;"></span>
+              <span class="wave-bar" style="height: 25px;"></span>
+              <span class="wave-bar" style="height: 44px;"></span>
+              <span class="wave-bar" style="height: 58px;"></span>
+              <span class="wave-bar" style="height: 33px;"></span>
+              <span class="wave-bar" style="height: 22px;"></span>
+            </div>
+            <p class="mockup-sample-phrase">"Maupay nga aga" — Good morning</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================== PROBLEM SECTION ===================== -->
+    <section id="problem" class="section problem-section">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-title">Why Philippine speech technology needs open resources</h2>
+        </header>
+        <div class="problem-cards-grid">
+
+          <article class="problem-card">
+            <div class="problem-card-icon" aria-hidden="true">🌐</div>
+            <h3 class="problem-card-title">Many languages are underrepresented</h3>
+            <p class="problem-card-body">
+              Of the Philippines' 130+ living languages, only a handful have meaningful digital presence.
+              Tagalog dominates while regional languages like Waray, Tausug, and Kapampangan remain invisible
+              to AI and speech systems.
+            </p>
+          </article>
+
+          <article class="problem-card">
+            <div class="problem-card-icon" aria-hidden="true">💾</div>
+            <h3 class="problem-card-title">Developers need clean datasets</h3>
+            <p class="problem-card-body">
+              Researchers and engineers building speech recognition or translation tools struggle to find
+              structured, labeled, and high-quality data for Philippine languages. What exists is often
+              scattered, inconsistent, or locked behind paywalls.
+            </p>
+          </article>
+
+          <article class="problem-card">
+            <div class="problem-card-icon" aria-hidden="true">🤝</div>
+            <h3 class="problem-card-title">Communities should lead documentation</h3>
+            <p class="problem-card-body">
+              Language knowledge belongs to the people who speak it. Top-down academic documentation often
+              misses nuance, dialect variation, and everyday usage. Wikapedia puts the community at the
+              center of the process.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== HOW IT WORKS SECTION ===================== -->
+    <section id="how-it-works" class="section how-section">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-title">From community contribution to developer-ready resources</h2>
+        </header>
+        <ol class="steps-list" aria-label="How Wikapedia works">
+
+          <li class="step-item">
+            <div class="step-number" aria-hidden="true">01</div>
+            <div class="step-icon" aria-hidden="true">✍️</div>
+            <h3 class="step-title">Contribute</h3>
+            <p class="step-description">
+              Filipino speakers add words, phrases, translations, audio recordings, and pronunciation notes
+              in their native language directly through the platform.
+            </p>
+          </li>
+
+          <li class="step-item">
+            <div class="step-number" aria-hidden="true">02</div>
+            <div class="step-icon" aria-hidden="true">🤖</div>
+            <h3 class="step-title">AI Check</h3>
+            <p class="step-description">
+              Submitted entries pass through AI-powered checks for duplicates, language detection,
+              translation confidence, audio clarity, and safety — flagging issues for human review.
+            </p>
+          </li>
+
+          <li class="step-item">
+            <div class="step-number" aria-hidden="true">03</div>
+            <div class="step-icon" aria-hidden="true">👥</div>
+            <h3 class="step-title">Community Review</h3>
+            <p class="step-description">
+              Native speakers and trusted community reviewers validate entries for accuracy, cultural
+              context, and regional nuance. Human judgment always takes precedence.
+            </p>
+          </li>
+
+          <li class="step-item">
+            <div class="step-number" aria-hidden="true">04</div>
+            <div class="step-icon" aria-hidden="true">📦</div>
+            <h3 class="step-title">Publish</h3>
+            <p class="step-description">
+              Verified entries are published as structured open-source datasets — downloadable language
+              packs, APIs, and benchmark sets ready for developers building Filipino language technology.
+            </p>
+          </li>
+
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===================== EXPLORE LANGUAGES SECTION ===================== -->
+    <section id="explore" class="section explore-section">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-title">Explore Philippine Languages</h2>
+          <p class="section-subtitle">Browse, search, and filter the growing Wikapedia language database.</p>
+        </header>
+
+        <div class="explore-controls">
+          <div class="search-wrapper">
+            <label for="languageSearch" class="sr-only">Search languages</label>
+            <input
+              type="search"
+              id="languageSearch"
+              class="language-search-input"
+              placeholder="Search by language, region, or status…"
+              aria-label="Search languages"
+            />
+          </div>
+          <div class="filter-buttons" role="group" aria-label="Filter languages by status">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="developer-ready">Developer-ready</button>
+            <button class="filter-btn" data-filter="growing">Growing</button>
+            <button class="filter-btn" data-filter="needs-contributors">Needs contributors</button>
+          </div>
+        </div>
+
+        <div class="language-grid" id="languageGrid" aria-live="polite" aria-label="Language cards">
+
+          <article
+            class="language-card"
+            data-language="cebuano"
+            data-region="central visayas mindanao"
+            data-status="developer-ready"
+          >
+            <div class="language-card-header">
+              <h3 class="language-name">Cebuano</h3>
+              <span class="status-badge status-developer-ready">Developer-ready</span>
+            </div>
+            <p class="language-region">Central Visayas, Mindanao</p>
+            <div class="language-stats">
+              <div class="lang-stat">
+                <span class="lang-stat-value">12,430</span>
+                <span class="lang-stat-label">Entries</span>
+              </div>
+              <div class="lang-stat">
+                <span class="lang-stat-value">3,210</span>
+                <span class="lang-stat-label">Voice Samples</span>
+              </div>
+              <div class="lang-stat">
+                <span class="lang-stat-value">78%</span>
+                <span class="lang-stat-label">Verified</span>
+              </div>
+            </div>
+            <div class="lang-progress-bar" aria-label="78% verified">
+              <div class="lang-progress-fill" style="width: 78%;"></div>
+            </div>
+            <a href="#explore" class="btn btn-outline btn-sm lang-card-cta">Explore Cebuano</a>
+          </article>
+
+          <article
+            class="language-card"
+            data-language="ilocano"
+            data-region="northern luzon"
+            data-status="growing"
+          >
+            <div class="language-card-header">
+              <h3 class="language-name">Ilocano</h3>
+              <span class="status-badge status-growing">Growing</span>
+            </div>
+            <p class="language-region">Northern Luzon</p>
+            <div class="language-stats">
+              <div class="lang-stat">
+                <span class="lang-stat-value">8,120</span>
+                <span class="lang-stat-label">Entries</span>
+              </div>
+              <div class="lang-stat">
+                <span class="lang-stat-value">1,904</span>
+                <span class="lang-stat-label">Voice Samples</span>
+              </div>
+              <div class="lang-stat">
+                <span class="lang-stat-value">72%</span>
+                <span class="lang-stat-label">Verified</span>
+              </div>
+            </div>
+            <div class="lang-progress-bar" aria-label="72% verified">
+              <div class="lang-progress-fill" style="width: 72%;"></div>
+            </div>
+            <a href="#explore" class="btn btn-outline btn-sm lang-card-cta">Explore Ilocano</a>
+          </article>
+
+          <article
+            class="language-card"
+            data-language="hiligaynon"
+            data-region="western visayas"
+            data-status="growing"
+          >
+            <div class="language-card-header">
+              <h3 class="language-name">Hiligaynon</h3>
+              <span class="status-badge status-growing">Growing</span>
+            </div>
+            <p class="language-region">Western Visayas</p>
+            <div class="language-stats">
+              <div class="lang-stat">
+                <span class="lang-stat-value">6,904</span>
+                <span class="lang-stat-label">Entries</span>
+              </div>
+              <div class="lang-stat">
+                <span class="lang-stat-value">1,477</span>
+                <span class="lang-stat-label">Voice Samples</span>
+              </div>
+              <div class="lang-stat">
+                <span class="lang-stat-value">69%</span>
+                <span class="lang-stat-label">Verified</span>
+              </div>
+            </div>
+            <div class="lang-progress-bar" aria-label="69% verified">
+              <div class="lang-progress-fill" style="width: 69%;"></div>
+            </div>
+            <a href="#explore" class="btn btn-outline btn-sm lang-card-cta">Explore Hiligaynon</a>
+          </article>
+
+          <article
+            class="language-card"
+            data-language="waray"
+            data-region="eastern visayas"
+            data-status="needs-contributors"
+          >
+            <div class="language-card-header">
+              <h3 class="language-name">Waray</h3>
+              <span class="status-badge status-needs">Needs reviewers</span>
+            </div>
+            <p class="language-region">Eastern Visayas</p>
+            <div class="language-stats">
+              <div class="lang-stat">
+                <span class="lang-stat-value">4,221</span>
+                <span class="lang-stat-label">Entries</span>
+              </div>
+              <div class="lang-stat">
+                <span class="lang-stat-value">891</span>
+                <span class="lang-stat-label">Voice Samples</span>
+              </div>
+              <div class="lang-stat">
+                <span class="lang-stat-value">64%</span>
+                <span class="lang-stat-label">Verified</span>
+              </div>
+            </div>
+            <div class="lang-progress-bar" aria-label="64% verified">
+              <div class="lang-progress-fill" style="width: 64%;"></div>
+            </div>
+            <a href="#waray-pack" class="btn btn-outline btn-sm lang-card-cta">Explore Waray</a>
+          </article>
+
+          <article
+            class="language-card"
+            data-language="kapampangan"
+            data-region="central luzon"
+            data-status="needs-contributors"
+          >
+            <div class="language-card-header">
+              <h3 class="language-name">Kapampangan</h3>
+              <span class="status-badge status-needs">Needs audio</span>
+            </div>
+            <p class="language-region">Central Luzon</p>
+            <div class="language-stats">
+              <div class="lang-stat">
+                <span class="lang-stat-value">3,887</span>
+                <span class="lang-stat-label">Entries</span>
+              </div>
+              <div class="lang-stat">
+                <span class="lang-stat-value">732</span>
+                <span class="lang-stat-label">Voice Samples</span>
+              </div>
+              <div class="lang-stat">
+                <span class="lang-stat-value">61%</span>
+                <span class="lang-stat-label">Verified</span>
+              </div>
+            </div>
+            <div class="lang-progress-bar" aria-label="61% verified">
+              <div class="lang-progress-fill" style="width: 61%;"></div>
+            </div>
+            <a href="#explore" class="btn btn-outline btn-sm lang-card-cta">Explore Kapampangan</a>
+          </article>
+
+          <article
+            class="language-card"
+            data-language="tausug"
+            data-region="sulu mindanao"
+            data-status="needs-contributors"
+          >
+            <div class="language-card-header">
+              <h3 class="language-name">Tausug</h3>
+              <span class="status-badge status-needs">Needs contributors</span>
+            </div>
+            <p class="language-region">Sulu, Mindanao</p>
+            <div class="language-stats">
+              <div class="lang-stat">
+                <span class="lang-stat-value">1,943</span>
+                <span class="lang-stat-label">Entries</span>
+              </div>
+              <div class="lang-stat">
+                <span class="lang-stat-value">298</span>
+                <span class="lang-stat-label">Voice Samples</span>
+              </div>
+              <div class="lang-stat">
+                <span class="lang-stat-value">48%</span>
+                <span class="lang-stat-label">Verified</span>
+              </div>
+            </div>
+            <div class="lang-progress-bar" aria-label="48% verified">
+              <div class="lang-progress-fill" style="width: 48%;"></div>
+            </div>
+            <a href="#explore" class="btn btn-outline btn-sm lang-card-cta">Explore Tausug</a>
+          </article>
+
+        </div>
+
+        <p class="no-results-message hidden" id="noResultsMessage" role="status">
+          No languages found matching your search. Try a different keyword or filter.
+        </p>
+
+      </div>
+    </section>
+
+    <!-- ===================== WARAY PACK SECTION ===================== -->
+    <section id="waray-pack" class="section waray-section">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-eyebrow">Language Resource Pack</span>
+          <h2 class="section-title">Waray Language Resource Pack</h2>
+          <p class="section-subtitle">
+            Community-built words, phrases, pronunciations, audio recordings, and verified datasets
+            for Waray speech technology.
+          </p>
+        </header>
+
+        <div class="waray-stats-grid">
+          <div class="waray-stat-card">
+            <span class="waray-stat-value">1,840</span>
+            <span class="waray-stat-label">Words</span>
+          </div>
+          <div class="waray-stat-card">
+            <span class="waray-stat-value">2,381</span>
+            <span class="waray-stat-label">Phrases</span>
+          </div>
+          <div class="waray-stat-card">
+            <span class="waray-stat-value">891</span>
+            <span class="waray-stat-label">Voice Samples</span>
+          </div>
+          <div class="waray-stat-card">
+            <span class="waray-stat-value">2,703</span>
+            <span class="waray-stat-label">Verified Entries</span>
+          </div>
+          <div class="waray-stat-card">
+            <span class="waray-stat-value">132</span>
+            <span class="waray-stat-label">Native Reviewers</span>
+          </div>
+          <div class="waray-stat-card">
+            <span class="waray-stat-value">314</span>
+            <span class="waray-stat-label">Code-switch Examples</span>
+          </div>
+        </div>
+
+        <div class="waray-phrase-table-wrapper">
+          <table class="phrase-table" aria-label="Waray phrase samples">
+            <caption class="table-caption">Sample Waray Phrases</caption>
+            <thead>
+              <tr>
+                <th scope="col">Waray</th>
+                <th scope="col">English</th>
+                <th scope="col">Category</th>
+                <th scope="col">Status</th>
+                <th scope="col">Audio</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="phrase-row">
+                <td class="phrase-waray">Maupay nga aga</td>
+                <td class="phrase-english">Good morning</td>
+                <td class="phrase-category">Greeting</td>
+                <td class="phrase-status"><span class="status-pill verified-pill">Community Verified</span></td>
+                <td class="phrase-audio">
+                  <button class="play-btn" aria-label="Play audio for Maupay nga aga" data-phrase="Maupay nga aga">
+                    ▶ Play
+                  </button>
+                </td>
+              </tr>
+              <tr class="phrase-row">
+                <td class="phrase-waray">Kinahanglan ko hin bulig</td>
+                <td class="phrase-english">I need help</td>
+                <td class="phrase-category">Emergency</td>
+                <td class="phrase-status"><span class="status-pill verified-pill">Community Verified</span></td>
+                <td class="phrase-audio">
+                  <button class="play-btn" aria-label="Play audio for Kinahanglan ko hin bulig" data-phrase="Kinahanglan ko hin bulig">
+                    ▶ Play
+                  </button>
+                </td>
+              </tr>
+              <tr class="phrase-row">
+                <td class="phrase-waray">Hain an sakayan?</td>
+                <td class="phrase-english">Where is the ride or transport?</td>
+                <td class="phrase-category">Transportation</td>
+                <td class="phrase-status"><span class="status-pill ai-pill">AI Checked</span></td>
+                <td class="phrase-audio">
+                  <button class="play-btn" aria-label="Play audio for Hain an sakayan?" data-phrase="Hain an sakayan?">
+                    ▶ Play
+                  </button>
+                </td>
+              </tr>
+              <tr class="phrase-row">
+                <td class="phrase-waray">Makadto ako ha merkado</td>
+                <td class="phrase-english">I am going to the market</td>
+                <td class="phrase-category">Daily Life</td>
+                <td class="phrase-status"><span class="status-pill review-pill">Under Review</span></td>
+                <td class="phrase-audio">
+                  <button class="play-btn" aria-label="Play audio for Makadto ako ha merkado" data-phrase="Makadto ako ha merkado">
+                    ▶ Play
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="waray-export-actions">
+          <h3 class="export-title">Export Waray Dataset</h3>
+          <p class="export-description">Download verified Waray language data for research, development, or education.</p>
+          <div class="export-buttons">
+            <button class="btn btn-primary export-btn" id="downloadJSON" data-format="json">
+              ⬇ Download JSON
+            </button>
+            <button class="btn btn-secondary export-btn" id="downloadCSV" data-format="csv">
+              ⬇ Download CSV
+            </button>
+            <a href="#developers" class="btn btn-outline export-btn" id="viewAPI">
+              ⚙ View API
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================== CONTRIBUTE SECTION ===================== -->
+    <section id="contribute" class="section contribute-section">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-title">Contribute your language</h2>
+          <p class="section-subtitle">
+            Add words, phrases, translations, pronunciations, or voice recordings to help preserve
+            and popularize Philippine languages.
+          </p>
+        </header>
+
+        <div class="contribution-types-grid">
+          <button class="contribution-type-card" data-type="word">
+            <span class="contrib-type-icon" aria-hidden="true">📝</span>
+            <span class="contrib-type-label">Add a word</span>
+          </button>
+          <button class="contribution-type-card" data-type="phrase">
+            <span class="contrib-type-icon" aria-hidden="true">💬</span>
+            <span class="contrib-type-label">Add a phrase</span>
+          </button>
+          <button class="contribution-type-card" data-type="translate">
+            <span class="contrib-type-icon" aria-hidden="true">🔄</span>
+            <span class="contrib-type-label">Translate a phrase</span>
+          </button>
+          <button class="contribution-type-card" data-type="record">
+            <span class="contrib-type-icon" aria-hidden="true">🎙️</span>
+            <span class="contrib-type-label">Record your voice</span>
+          </button>
+          <button class="contribution-type-card" data-type="pronunciation">
+            <span class="contrib-type-icon" aria-hidden="true">🔊</span>
+            <span class="contrib-type-label">Add pronunciation notes</span>
+          </button>
+          <button class="contribution-type-card" data-type="review">
+            <span class="contrib-type-icon" aria-hidden="true">✅</span>
+            <span class="contrib-type-label">Review entries</span>
+          </button>
+        </div>
+
+        <form id="contributionForm" class="contribution-form" novalidate>
+          <h3 class="form-title">Submit a Contribution</h3>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="languageSelect" class="form-label">Select Language <span class="required" aria-hidden="true">*</span></label>
+              <select id="languageSelect" name="language" class="form-control" required aria-required="true">
+                <option value="" disabled selected>Choose a language…</option>
+                <option value="cebuano">Cebuano</option>
+                <option value="ilocano">Ilocano</option>
+                <option value="hiligaynon">Hiligaynon</option>
+                <option value="waray">Waray</option>
+                <option value="kapampangan">Kapampangan</option>
+                <option value="tausug">Tausug</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="regionDialect" class="form-label">Region or Dialect</label>
+              <input
+                type="text"
+                id="regionDialect"
+                name="region"
+                class="form-control"
+                placeholder="e.g. Leyte, Samar, Calbayog dialect"
+              />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="wordPhrase" class="form-label">Word or Phrase <span class="required" aria-hidden="true">*</span></label>
+              <input
+                type="text"
+                id="wordPhrase"
+                name="word_phrase"
+                class="form-control"
+                placeholder="Enter the word or phrase in your language"
+                required
+                aria-required="true"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="englishTranslation" class="form-label">English Translation <span class="required" aria-hidden="true">*</span></label>
+              <input
+                type="text"
+                id="englishTranslation"
+                name="translation"
+                class="form-control"
+                placeholder="Enter the English translation"
+                required
+                aria-required="true"
+              />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="category" class="form-label">Category</label>
+              <select id="category" name="category" class="form-control">
+                <option value="" disabled selected>Choose a category…</option>
+                <option value="greeting">Greeting</option>
+                <option value="daily-life">Daily Life</option>
+                <option value="food">Food</option>
+                <option value="transportation">Transportation</option>
+                <option value="emergency">Emergency</option>
+                <option value="education">Education</option>
+                <option value="health">Health</option>
+                <option value="nature">Nature</option>
+                <option value="numbers">Numbers</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="usageContext" class="form-label">Usage Context</label>
+              <input
+                type="text"
+                id="usageContext"
+                name="usage_context"
+                class="form-control"
+                placeholder="e.g. used when greeting elders, formal setting"
+              />
+            </div>
+          </div>
+
+          <div class="form-group form-group-full">
+            <label for="culturalNote" class="form-label">Cultural Note</label>
+            <textarea
+              id="culturalNote"
+              name="cultural_note"
+              class="form-control form-textarea"
+              placeholder="Optional: add any cultural context, origin, or notes about this word or phrase"
+              rows="4"
+            ></textarea>
+          </div>
+
+          <div class="form-group form-group-full">
+            <label class="form-checkbox-label">
+              <input
+                type="checkbox"
+                id="consentCheckbox"
+                name="consent"
+                class="form-checkbox"
+                required
+                aria-required="true"
+              />
+              <span class="form-checkbox-text">
+                I agree that my contribution may be reviewed and published as part of an open language resource.
+              </span>
+            </label>
+          </div>
+
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary btn-lg" id="submitContribution">
+              Submit for AI Check
+            </button>
+          </div>
+
+          <div id="verificationResult" class="verification-result hidden" role="alert" aria-live="polite"></div>
+        </form>
+
+        <div class="contribution-pipeline" aria-label="Submission pipeline stages">
+          <h3 class="pipeline-title">What happens after you submit</h3>
+          <ol class="pipeline-steps">
+            <li class="pipeline-step" data-stage="submitted">
+              <span class="pipeline-step-icon" aria-hidden="true">📨</span>
+              <span class="pipeline-step-label">Submitted</span>
+            </li>
+            <span class="pipeline-arrow" aria-hidden="true">→</span>
+            <li class="pipeline-step" data-stage="ai-checking">
+              <span class="pipeline-step-icon" aria-hidden="true">🤖</span>
+              <span class="pipeline-step-label">AI Checking</span>
+            </li>
+            <span class="pipeline-arrow" aria-hidden="true">→</span>
+            <li class="pipeline-step" data-stage="community-review">
+              <span class="pipeline-step-icon" aria-hidden="true">👥</span>
+              <span class="pipeline-step-label">Community Review</span>
+            </li>
+            <span class="pipeline-arrow" aria-hidden="true">→</span>
+            <li class="pipeline-step" data-stage="verified">
+              <span class="pipeline-step-icon" aria-hidden="true">✅</span>
+              <span class="pipeline-step-label">Verified</span>
+            </li>
+            <span class="pipeline-arrow" aria-hidden="true">→</span>
+            <li class="pipeline-step" data-stage="published">
+              <span class="pipeline-step-icon" aria-hidden="true">📦</span>
+              <span class="pipeline-step-label">Published</span>
+            </li>
+          </ol>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================== AI VERIFICATION SECTION ===================== -->
+    <section id="ai-verification" class="section ai-section">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-title">AI-assisted verification</h2>
+          <p class="section-subtitle">
+            AI helps check quality, but native speakers and trusted reviewers make the final decision.
+          </p>
+        </header>
+
+        <div class="ai-content-grid">
+
+          <div class="ai-checks-panel">
+            <h3 class="panel-title">Verification Checks</h3>
+            <ul class="ai-checks-list" aria-label="AI verification checks">
+              <li class="ai-check-item" data-check="duplicate">
+                <span class="check-icon pass" aria-hidden="true">✓</span>
+                <span class="check-label">Duplicate check</span>
+                <span class="check-status">Passed</span>
+              </li>
+              <li class="ai-check-item" data-check="language-detection">
+                <span class="check-icon pass" aria-hidden="true">✓</span>
+                <span class="check-label">Language detection</span>
+                <span class="check-status">Waray — 96% confidence</span>
+              </li>
+              <li class="ai-check-item" data-check="translation-confidence">
+                <span class="check-icon pass" aria-hidden="true">✓</span>
+                <span class="check-label">Translation confidence</span>
+                <span class="check-status">High — 91%</span>
+              </li>
+              <li class="ai-check-item" data-check="audio-clarity">
+                <span class="check-icon pass" aria-hidden="true">✓</span>
+                <span class="check-label">Audio clarity check</span>
+                <span class="check-status">Clear audio detected</span>
+              </li>
+              <li class="ai-check-item" data-check="transcript-match">
+                <span class="check-icon pass" aria-hidden="true">✓</span>
+                <span class="check-label">Transcript match</span>
+                <span class="check-status">98% match</span>
+              </li>
+              <li class="ai-check-item" data-check="safety-spam">
+                <span class="check-icon pass" aria-hidden="true">✓</span>
+                <span class="check-label">Safety and spam check</span>
+                <span class="check-status">Clean</span>
+              </li>
+              <li class="ai-check-item" data-check="community-review">
+                <span class="check-icon pending" aria-hidden="true">⏳</span>
+                <span class="check-label">Community review</span>
+                <span class="check-status">Awaiting reviewers</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="ai-badges-panel">
+            <h3 class="panel-title">Entry Status Badges</h3>
+            <p class="panel-description">
+              Every entry in Wikapedia carries a status badge so users and developers know
+              exactly how much verification it has received.
+            </p>
+            <ul class="status-badges-list" aria-label="Possible entry statuses">
+              <li class="status-badge-item">
+                <span class="status-pill unreviewed-pill">Unreviewed</span>
+                <p class="badge-description">Just submitted. Not yet checked by AI or community.</p>
+              </li>
+              <li class="status-badge-item">
+                <span class="status-pill ai-pill">AI Checked</span>
+                <p class="badge-description">Passed automated quality checks. Awaiting human review.</p>
+              </li>
+              <li class="status-badge-item">
+                <span class="status-pill verified-pill">Community Verified</span>
+                <p class="badge-description">Confirmed accurate by native speakers and trusted reviewers.</p>
+              </li>
+              <li class="status-badge-item">
+                <span class="status-pill expert-pill">Expert Verified</span>
+                <p class="badge-description">Reviewed by a language expert or academic partner.</p>
+              </li>
+              <li class="status-badge-item">
+                <span class="status-pill dev-ready-pill">Developer Ready</span>
+                <p class="badge-description">Fully verified, structured, and ready for use in AI and speech tools.</p>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== DEVELOPER RESOURCES SECTION ===================== -->
+    <section id="developers" class="section dev-section">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-title">Build with verified Philippine language data</h2>
+          <p class="section-subtitle">
+            Access open language packs, speech datasets, phrase banks, pronunciation guides,
+            and APIs for Filipino speech technology.
+          </p>
+        </header>
+
+        <div class="dev-cards-grid">
+
+          <article class="dev-card">
+            <div class="dev-card-icon" aria-hidden="true">📦</div>
+            <h3 class="dev-card-title">Download Language Packs</h3>
+            <p class="dev-card-body">Structured JSON and CSV language packs for Cebuano, Ilocano, Waray, and more — ready to import into your pipeline.</p>
+            <a href="#developers" class="btn btn-outline btn-sm">Browse Packs</a>
+          </article>
+
+          <article class="dev-card">
+            <div class="dev-card-icon" aria-hidden="true">⚙️</div>
+            <h3 class="dev-card-title">Use the Wikapedia API</h3>
+            <p class="dev-card-body">Query verified words, phrases, translations, and audio metadata programmatically with our RESTful API.</p>
+            <a href="#developers" class="btn btn-outline btn-sm">View API Docs</a>
+          </article>
+
+          <article class="dev-card">
+            <div class="dev-card-icon" aria-hidden="true">🎙️</div>
+            <h3 class="dev-card-title">Access Speech Datasets</h3>
+            <p class="dev-card-body">Download community-recorded audio alongside transcripts and speaker metadata for training ASR and TTS models.</p>
+            <a href="#developers" class="btn btn-outline btn-sm">Get Speech Data</a>
+          </article>
+
+          <article class="dev-card">
+            <div class="dev-card-icon" aria-hidden="true">📊</div>
+            <h3 class="dev-card-title">View Benchmark Sets</h3>
+            <p class="dev-card-body">Use our curated benchmark phrase sets to evaluate your model's performance across Philippine languages.</p>
+            <a href="#developers" class="btn btn-outline btn-sm">View Benchmarks</a>
+          </article>
+
+          <article class="dev-card">
+            <div class="dev-card-icon" aria-hidden="true">📋</div>
+            <h3 class="dev-card-title">Read Metadata Schema</h3>
+            <p class="dev-card-body">Understand the data structure, field definitions, verification fields, and audio metadata formats used in all Wikapedia exports.</p>
+            <a href="#developers" class="btn btn-outline btn-sm">View Schema</a>
+          </article>
+
+          <article class="dev-card">
+            <div class="dev-card-icon" aria-hidden="true">🐙</div>
+            <h3 class="dev-card-title">Contribute on GitHub</h3>
+            <p class="dev-card-body">Wikapedia is open source. Help improve the platform, the verification pipeline, or the data schema on GitHub.</p>
+            <a href="#developers" class="btn btn-outline btn-sm">View on GitHub</a>
+          </article>
+
+        </div>
+
+        <div class="api-preview-block">
+          <div class="api-preview-header">
+            <h3 class="api-preview-title">API Preview</h3>
+            <span class="api-method-badge">GET</span>
+            <code class="api-endpoint">/api/languages/waray/phrases</code>
+          </div>
+          <div class="api-response-block">
+            <pre class="api-response-code"><code>{
+  "language": "Waray",
+  "phrase": "Maupay nga aga",
+  "translation": "Good morning",
+  "status": "community_verified",
+  "audio_available": true
+}</code></pre>
+          </div>
+          <div class="api-actions">
+            <button class="btn btn-primary" id="downloadSampleData">
+              ⬇ Download Sample Dataset
+            </button>
+            <a href="#developers" class="btn btn-outline">Full API Reference</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================== ABOUT / MISSION SECTION ===================== -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-title">Bringing every Filipino voice into the light</h2>
+        </header>
+
+        <div class="about-content-grid">
+
+          <div class="about-text-block">
+            <h3 class="about-block-title">The Problem</h3>
+            <p class="about-block-body">
+              The Philippines has over 130 living languages, yet only Tagalog and English are meaningfully
+              represented in AI and speech technology. Millions of Filipinos who speak Waray, Tausug,
+              Kapampangan, Ilocano, and dozens of other languages are effectively invisible to the digital
+              tools that are reshaping how people communicate, access healthcare, and participate in society.
+            </p>
+          </div>
+
+          <div class="about-text-block">
+            <h3 class="about-block-title">The Solution</h3>
+            <p class="about-block-body">
+              Wikapedia is a community-powered, AI-assisted platform that lets speakers of any Philippine
+              language contribute verified language data. By combining community knowledge with AI quality
+              checks and human review, we create high-quality, structured language resources that any
+              developer can use freely.
+            </p>
+          </div>
+
+          <div class="about-text-block">
+            <h3 class="about-block-title">The Impact</h3>
+            <p class="about-block-body">
+              Every verified entry becomes a building block for the future of Filipino language technology.
+              Better speech recognition for emergency services. More inclusive voice assistants. Translation
+              tools that work in Bisaya. Text-to-speech engines that sound like home. Our goal is to make
+              every Filipino language accessible, searchable, and usable by developers building the next
+              generation of tools.
+            </p>
+          </div>
+
+        </div>
+
+        <div class="ethics-block">
+          <h3 class="ethics-title">Our Ethical Principles</h3>
+          <ul class="ethics-list">
+            <li class="ethics-item">
+              <span class="ethics-icon" aria-hidden="true">🏠</span>
+              <div>
+                <strong>Community Ownership</strong>
+                <p>Language data belongs to the communities that created it. Contributors retain recognition and communities retain voice over how their language is documented.</p>
+              </div>
+            </li>
+            <li class="ethics-item">
+              <span class="ethics-icon" aria-hidden="true">🔓</span>
+              <div>
+                <strong>Open Access</strong>
+                <p>All verified language resources are freely available under open licenses. No paywalls, no corporate lock-in. Built for the public good.</p>
+              </div>
+            </li>
+            <li class="ethics-item">
+              <span class="ethics-icon" aria-hidden="true">✍️</span>
+              <div>
+                <strong>Ethical Consent</strong>
+                <p>Every contributor explicitly consents to how their data is used. Recordings and personal contributions are never used beyond the stated purpose without renewed consent.</p>
+              </div>
+            </li>
+            <li class="ethics-item">
+              <span class="ethics-icon" aria-hidden="true">👤</span>
+              <div>
+                <strong>Human-centered AI</strong>
+                <p>AI is a tool, not a gatekeeper. Native speakers and community reviewers always have final say over what is verified and what is published.</p>
+              </div>
+            </li>
+            <li class="ethics-item">
+              <span class="ethics-icon" aria-hidden="true">🌺</span>
+              <div>
+                <strong>Respect for Regional Variation</strong>
+                <p>We document dialects, regional usage, and variation — not just a single "standard" form. Language is living and regional differences are valued, not erased.</p>
+              </div>
+            </li>
+            <li class="ethics-item">
+              <span class="ethics-icon" aria-hidden="true">🛠️</span>
+              <div>
+                <strong>Developer Usability</strong>
+                <p>We structure data so it is immediately useful to developers — with clear schemas, status labels, and export formats designed for real-world AI pipelines.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer id="site-footer" class="site-footer">
+    <div class="container footer-container">
+
+      <div class="footer-brand">
+        <a href="#home" class="footer-logo">Wikapedia</a>
+        <p class="footer-mission">
+          An open-source Wikipedia for the 130+ languages of the Philippines.
+          Built by Filipino communities. Verified with AI. Opened for the future.
+        </p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <ul class="footer-links">
+          <li><a href="#explore" class="footer-link">Explore Languages</a></li>
+          <li><a href="#contribute" class="footer-link">Contribute</a></li>
+          <li><a href="#developers" class="footer-link">Developer Resources</a></li>
+          <li><a href="#developers" class="footer-link">GitHub</a></li>
+          <li><a href="#about" class="footer-link">About</a></li>
+        </ul>
+      </nav>
+
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copy">
+        &copy; 2025 Wikapedia. Open-source under the MIT License.
+        Built for every Filipino voice.
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
