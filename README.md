@@ -59,33 +59,8 @@ wikapedia/
 
 ---
 
-## Data format
-
-```json
-{
-  "platform": "Wikapedia",
-  "language": "Waray",
-  "license": "CC BY 4.0",
-  "entries": [
-    {
-      "waray": "Maupay nga aga",
-      "english": "Good morning",
-      "category": "Greeting",
-      "status": "community_verified",
-      "audio_available": true
-    }
-  ]
-}
-```
-
----
-
-## A few things we care about
-
-Language data should belong to the communities that made it. Contributors consent to how their data gets used. AI helps with quality checks but native speakers have final say. Dialects and regional variations are documented, not flattened.
-
----
-
-## License
-
-Code is MIT. Language data is CC BY 4.0.
+## Members:
+Arias, Sam Denielle
+Coo, Helijah Sephreen
+Esguerra, John Joshua
+Escara, Angel John
